@@ -1,0 +1,350 @@
+
+.logo {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.menu1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+    background-color: white;
+}
+.submenu {
+    display: flex;
+    gap: 15px;
+    margin-top: 90px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #555;
+    position: fixed;
+    background-color: white;
+
+}
+.contenedor33{
+  background-color: white;
+  gap: 10px;
+  padding-left: 115px;
+  height: 150px;
+  width: 60px;
+  margin-right: 10px;
+          
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+.btn-red {
+    border: 1px solid red;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+.btn-dark {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.klose{
+    height: 615px; 
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.column {
+    flex: 1;
+}
+.kit{
+    font-size: 14px;
+    color: #666;
+}
+.section {
+    margin-bottom: 30px;
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    margin-bottom: 8px;
+}
+li:before {
+    content: "✔ ";
+    color: green;
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+.deductibles li {
+    font-size: 14px;
+    color: #666;
+}
+.fuego li{
+    font-size: 14px;
+    color: #666;
+}
+.kil li{
+    font-size: 14px;
+    color: #666;
+}
+.robo li{
+    font-size: 14px;
+    color: #666;
+}
+.exclusiones li{
+    content: "• ";
+    color: #666;
+    font-size: 14px;
+}
+.card {
+    background-color: #eef5f4;
+    padding: 0;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card h3 {
+    margin-top: 10px;
+    color: #333;
+}
+.card p, .card ul {
+    color: #666;
+    font-size: 16px;
+}
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+.card ul li::before {
+    content: "• ";
+    color: #3c8dbc;
+}
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.did{
+    font-size: 14px;
+    color: #666;
+}
+.tutu{
+    color: red;
+}
+.mimi{
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+    color: rgb(121, 119, 119);
+}
+.contenedor2{
+    display: flex;
+    align-items: center;
+    gap: 600px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.cardd {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .cardd img {
+    width: 100%;
+    height: auto;
+  }
+  .cardd-content {
+    padding: 15px;
+  }
+  .cardd-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  .cardd-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2a7ae2;
+  }
+  .cardd-summary {
+    font-size: 0.95em;
+    margin-bottom: 10px;
+  }
+  .read-more {
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container6{
+    display: flex;
+    height: 450px;
+    
+  }
+  .contenedor4{
+    margin: 100px;
+    padding: 15px;
+  }
+  .leftt {
+    flex: 1;
+    background: url('imagen.jpg.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+  .right {
+    flex: 1;
+    background: #d80000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  .button {
+    background: white;
+    color: #d80000;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .whatsapp {
+    background: #25D366;
+    color: white;
+  }
+  .leftt h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  .leftt p {
+    font-size: 1.2em;
+  }
+  .footer-top {
+    background: #d80000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .footer-icons {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10px;
+    text-align: center;
+  }
+  .footer-icons div {
+    flex: 1;
+  }
+  .footer-icons img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .footer-bottom {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+  }
+  .footer-columna {
+    min-width: 150px;
+    margin: 10px;
+  }
+  .footer-columna h4 {
+    color: #444;
+    margin-bottom: 10px;
+  }
+  .footer-columna a {
+    display: block;
+    color: #444;
+    text-decoration: none;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .footer-columna a:hover {
+    text-decoration: underline;
+  }
+
+  .header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .faq {
+    border-top: 1px solid #ccc;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  .faq-item {
+    border-bottom: 1px solid #eee;
+  }
+  .faq-question {
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  .faq-answer {
+    padding: 0 15px 15px;
+    display: none;
+  }
+  .arrow {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+  }
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+  .faq-item.open .arrow {
+    transform: rotate(180deg);
+  }
+  .linkk {
+    color: darkred;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .linkk:hover {
+    text-decoration: underline;
+  }
+  .contenedor66{
+    margin: 100px;
+    padding: 15px;
+  }
